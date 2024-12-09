@@ -4,8 +4,12 @@ import styled from 'styled-components'
 const Bektur = ({name,email}) => {
   return (
     <div>
+      <button>click</button>
       <NameStyle>{name}</NameStyle>
       <EmailStyle>{email}</EmailStyle>
+      <h1>IM BOOK Component</h1>
+      <input type="text" />
+
     </div>
   )
 }
